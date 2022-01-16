@@ -1,0 +1,22 @@
+#app {
+  background: #272727 !important;
+}
+
+.action-button {
+  width: 20px !important;
+}
+
+.action-button:hover {
+  cursor: pointer;
+}
+
+.link {
+  color: white !important;
+  text-decoration: none;
+}
+
+.link-active {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=index.css.map */
