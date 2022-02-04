@@ -2,7 +2,7 @@ import axios from "axios";
 import qs from "qs";
 
 export default {
-    __host__: 'https://680b-95-29-161-222.ngrok.io/',
+    __host__: process.env.VUE_APP_API_URL,
 
     async execute(method, path, params = {}) {
         const headers = {
